@@ -12,10 +12,10 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className='relative z-10 px-40 py-20'>
+      <div className='relative z-10 px-6 md:px-40 py-12 md:py-20'>
         <div className='grid md:grid-cols-2 gap-12 items-center'>
           <div className='space-y-6'>
-            <h1 className='text-6xl font-bold leading-tight'>
+            <h1 className='text-4xl md:text-6xl font-bold leading-tight'>
               <span className='text-white font-extrabold'>Unified.</span>
               <br />
               <span className='text-white font-extrabold'>Reliable.</span>
@@ -27,17 +27,17 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className='text-gray-400 text-lg font-extralight max-w-md'>
+            <p className='text-gray-400 text-base md:text-lg font-extralight max-w-md'>
               Empowering the Next Billion through smart POS hardware, instant
               settlement, and e-consumer super app — built for Nigeria's
               informal and formal economies.
             </p>
 
-            <div className='flex gap-4 pt-4'>
-              <button className='bg-linear-to-r from-[#FF0000] to-[#FFA45F] hover:opacity-90 text-white px-8 py-3 rounded-full font-medium transition-opacity'>
+            <div className='flex flex-col sm:flex-row gap-3 md:gap-4 pt-4'>
+              <button className='bg-linear-to-r from-[#FF0000] to-[#FFA45F] hover:opacity-90 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-medium transition-opacity text-sm md:text-base'>
                 Become an Agent
               </button>
-              <button className='border border-gray-600 hover:border-gray-400 text-white px-8 py-3 rounded-full font-medium transition-colors'>
+              <button className='border border-gray-600 hover:border-gray-400 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-medium transition-colors text-sm md:text-base'>
                 Explore Solutions →
               </button>
             </div>
@@ -53,22 +53,38 @@ export default function Hero() {
         </div>
 
         {/* Stats Section */}
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-8 mt-32 pt-8 border-t border-gray-800'>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mt-16 md:mt-32 pt-6 md:pt-8 border-t border-gray-800'>
           <div>
-            <div className='text-red-500 text-4xl font-bold mb-2'>4-5yr</div>
-            <div className='text-gray-400 text-sm'>Years in Business</div>
+            <div className='text-red-500 text-2xl md:text-4xl font-bold mb-2'>
+              4-5yr
+            </div>
+            <div className='text-gray-400 text-xs md:text-sm'>
+              Years in Business
+            </div>
           </div>
           <div>
-            <div className='text-red-500 text-4xl font-bold mb-2'>37</div>
-            <div className='text-gray-400 text-sm'>States Nationwide</div>
+            <div className='text-red-500 text-2xl md:text-4xl font-bold mb-2'>
+              37
+            </div>
+            <div className='text-gray-400 text-xs md:text-sm'>
+              States Nationwide
+            </div>
           </div>
           <div>
-            <div className='text-red-500 text-4xl font-bold mb-2'>1M+</div>
-            <div className='text-gray-400 text-sm'>POS Terminals Deployed</div>
+            <div className='text-red-500 text-2xl md:text-4xl font-bold mb-2'>
+              1M+
+            </div>
+            <div className='text-gray-400 text-xs md:text-sm'>
+              POS Terminals Deployed
+            </div>
           </div>
           <div>
-            <div className='text-red-500 text-4xl font-bold mb-2'>99.9%</div>
-            <div className='text-gray-400 text-sm'>Uptime Success Rate</div>
+            <div className='text-red-500 text-2xl md:text-4xl font-bold mb-2'>
+              99.9%
+            </div>
+            <div className='text-gray-400 text-xs md:text-sm'>
+              Uptime Success Rate
+            </div>
           </div>
         </div>
       </div>
