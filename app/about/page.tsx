@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <div className='min-h-screen bg-black text-white '>
       {/* Hero Section - Built on Trust */}
-      <section className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20'>
+      <section className='max-w-7xl mx-auto px-6 md:px-20 pt-10 pb-20'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
           <div>
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold mb-6'>
@@ -23,7 +23,7 @@ export default function AboutPage() {
       </section>
 
       {/* From Regional Processor to Unified Powerhouse */}
-      <section className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20'>
+      <section className='max-w-7xl mx-auto px-6 md:px-20 pt-10 pb-20'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
           {/* Left Column */}
           <div>
@@ -150,8 +150,8 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className='bg-[#0a0a0a] py-20'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <section className='bg-[#0a0a0a] py-12 md:py-20'>
+        <div className='max-w-7xl mx-auto px-6 md:px-20'>
           <h2 className='text-4xl md:text-5xl font-bold mb-12'>Core Values</h2>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
             {/* Integrity */}
@@ -231,7 +231,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership Structure */}
-      <section className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20'>
+      <section className='max-w-7xl mx-auto px-6 md:px-20 pt-10 pb-20'>
         <h2 className='text-4xl md:text-5xl font-bold mb-4'>
           Leadership Structure
         </h2>
@@ -332,8 +332,8 @@ export default function AboutPage() {
       </section>
 
       {/* 9th Pay at a Glance */}
-      <section className='bg-gradient-to-r from-red-600 to-orange-500 py-20'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <section className='bg-gradient-to-r from-red-600 to-orange-500 py-12 md:py-20'>
+        <div className='max-w-7xl mx-auto px-6 md:px-20 pt-10 pb-20'>
           <p className='text-white/80 text-sm uppercase tracking-wider mb-4'>
             — BY THE NUMBERS
           </p>
