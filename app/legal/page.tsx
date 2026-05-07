@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Footer from '@/components/Footer';
 
 export default function LegalPage() {
   const [activeTab, setActiveTab] = useState<'privacy' | 'terms'>('privacy');
@@ -56,7 +55,7 @@ export default function LegalPage() {
 
   return (
     <div className='min-h-screen bg-black text-white'>
-      <div className='pt-20 pb-16'>
+      <div className='pt-32 px-6 md:px-40 py-12 md:py-20'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           {/* Header Tabs */}
           <div className='flex gap-8 border-b border-gray-800 mb-8'>
@@ -980,8 +979,6 @@ export default function LegalPage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

@@ -51,7 +51,7 @@ export default function ContactPage() {
           backgroundPosition: 'center',
         }}
       >
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto px-6 pl-20 '>
           <p className='text-red-600 text-sm font-medium mb-4 tracking-wider'>
             — GET IN TOUCH
           </p>
@@ -68,7 +68,7 @@ export default function ContactPage() {
       </div>
 
       {/* Contact Form Section */}
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 md:px-40 py-12 md:py-20'>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-12'>
           {/* Form Section */}
           <div className='lg:col-span-2'>
