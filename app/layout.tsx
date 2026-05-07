@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Syne } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 const syne = Syne({
   subsets: ['latin'],
@@ -24,7 +25,9 @@ export default function RootLayout({
     <html lang='en' className={`${syne.variable} h-full antialiased`}>
       <body className='min-h-full flex flex-col bg-black text-white font-syne'>
         <Navbar />
+
         {children}
+        <Footer />
       </body>
     </html>
   );
