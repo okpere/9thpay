@@ -32,8 +32,12 @@ export default function Navbar() {
             HOME
           </Link>
           <Link
-            href='#'
-            className='text-gray-300 hover:text-white transition-colors'
+            href='/about'
+            className={`transition-colors ${
+              pathname === '/about'
+                ? 'text-red-600 font-semibold'
+                : 'text-gray-300 hover:text-white'
+            }`}
           >
             ABOUT US
           </Link>
@@ -66,10 +70,15 @@ export default function Navbar() {
           >
             Send Message
           </Link>
-          <button className='bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 md:px-4 md:py-2 rounded-md text-xs font-medium transition-colors flex items-center gap-1 md:gap-2'>
-            <span className='hidden sm:inline'>GET IT ON</span>
-            <span className='font-bold'>Google Play</span>
-          </button>
+  
+            <Image
+              src='/images/appDownload.svg'
+              alt='9thPay Logo'
+              width={32}
+              height={32}
+              className='w-24 h-14 md:w-36 md:h-20 cursor-pointer'
+            />
+
         </div>
       </div>
     </header>
